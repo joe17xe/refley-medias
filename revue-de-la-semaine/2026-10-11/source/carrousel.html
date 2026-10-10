@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --vert: #2e7d48; --bleu: #1048a0; --rouge: #e23a34;
+    --encre: #18212e; --gris: #4a5463; --pale: #6b7482;
+    --fond: #ffffff; --creme: #f6f3ec;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #ddd; font-family: 'Inter', sans-serif; color: var(--encre); }
+  .card { width: 1080px; height: 1350px; position: relative; overflow: hidden;
+          background: var(--fond); margin: 0 0 40px; display: flex; flex-direction: column; }
+  .pad { padding: 88px 88px 0; }
+  .card:not(.couverture):not(.avecphoto):not(.don) .pad { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-bottom: 40px; }
+  .card:not(.couverture):not(.avecphoto):not(.don) .kicker { align-self: flex-start; }
+  .card:not(.couverture):not(.avecphoto):not(.don) h2 { font-size: 96px; }
+  .card:not(.couverture):not(.avecphoto):not(.don) p.corps { font-size: 44px; }
+  h1, h2, .stat b { font-family: 'Poppins', sans-serif; letter-spacing: -0.02em; }
+  .kicker { display: inline-flex; align-items: center; gap: 14px; font-family: 'Poppins', sans-serif;
+            font-weight: 600; font-size: 26px; letter-spacing: 0.14em; text-transform: uppercase; }
+  .kicker::before { content: ""; width: 44px; height: 6px; border-radius: 3px; background: currentColor; }
+  h2 { font-size: 82px; line-height: 1.04; font-weight: 700; margin-top: 34px; }
+  p.corps { font-size: 40px; line-height: 1.42; color: var(--gris); margin-top: 36px; }
+  .stats { margin-top: 56px; display: grid; gap: 34px; }
+  .stat { border-left: 8px solid currentColor; padding: 4px 0 4px 34px; }
+  .stat b { display: block; font-size: 96px; line-height: 1; font-weight: 700; }
+  .stat span { display: block; font-size: 34px; line-height: 1.35; color: var(--gris); margin-top: 12px; }
+  .source { font-size: 24px; color: var(--pale); margin-top: 40px; }
+  .pied { margin-top: auto; display: flex; align-items: center; justify-content: space-between;
+          padding: 0 88px 64px; }
+  .marque { display: flex; align-items: center; gap: 20px; font-size: 24px; color: var(--pale); }
+  .marque img { width: 84px; height: 84px; object-fit: cover; object-position: 50% 30%;
+                mix-blend-mode: multiply; }
+  .marque strong { font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--encre);
+                   letter-spacing: 0.18em; font-size: 26px; display: block; }
+  .page { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 26px; color: var(--pale); }
+  .rouge { color: var(--rouge); } .bleu { color: var(--bleu); } .vert { color: var(--vert); }
+  .liseré { position: absolute; top: 0; left: 0; right: 0; height: 14px;
+            background: linear-gradient(90deg, var(--vert) 0 33.3%, var(--bleu) 33.3% 66.6%, var(--rouge) 66.6%); }
+
+  /* Couverture */
+  .couverture { background: var(--bleu); color: #fff; }
+  .couverture .arc { position: absolute; right: -330px; top: -520px; width: 900px; height: 900px;
+                     border-radius: 50%; border: 70px solid transparent;
+                     background: linear-gradient(var(--bleu), var(--bleu)) padding-box,
+                                 linear-gradient(200deg, #3d7be0, #ffffff 45%, var(--rouge) 80%) border-box;
+                     opacity: .9; }
+  .couverture .logo { width: 220px; height: 220px; background: #fff; border-radius: 36px;
+                      padding: 18px; position: relative; }
+  .couverture .logo img { width: 100%; height: 100%; object-fit: contain; }
+  .couverture h1 { font-size: 132px; line-height: 0.98; font-weight: 800; margin-top: 150px; position: relative; }
+  .couverture .date { font-size: 40px; margin-top: 44px; opacity: .92; font-weight: 500; }
+  .couverture ul { list-style: none; margin-top: 64px; display: flex; flex-wrap: wrap; gap: 16px; }
+  .couverture li { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 28px;
+                   border: 2px solid rgba(255,255,255,.55); border-radius: 999px; padding: 12px 28px; }
+  .couverture .pied { color: #fff; }
+  .couverture .suite { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 32px; }
+
+  /* Cartes photo */
+  .photo { height: 640px; flex: none; position: relative; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .photo.eglise img { object-position: 50% 42%; }
+  .photo .legende { position: absolute; left: 24px; bottom: 20px; font-size: 20px; color: #fff;
+                    background: rgba(0,0,0,.45); padding: 6px 14px; border-radius: 8px; }
+  .avecphoto .pad { padding-top: 56px; }
+  .avecphoto h2 { font-size: 68px; margin-top: 24px; }
+  .avecphoto p.corps { font-size: 36px; margin-top: 26px; }
+  .partenaires { font-size: 28px; line-height: 1.4; color: var(--encre); margin-top: 26px;
+                 padding-top: 22px; border-top: 2px solid #e7e9ee; }
+
+  /* Appel aux dons */
+  .don { background: var(--vert); color: #fff; }
+  .don .cadre { margin: 88px 88px 0; border-radius: 28px; overflow: hidden; height: 520px; flex: none; }
+  .don .cadre img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; }
+  .don h2 { margin-top: 56px; font-size: 76px; }
+  .don p.corps { color: rgba(255,255,255,.92); margin-top: 24px; }
+  .don .bouton { display: inline-block; margin-top: 44px; background: #fff; color: var(--vert);
+                 font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 44px;
+                 padding: 20px 48px; border-radius: 999px; }
+  .don .bouton small { font-size: 28px; font-weight: 500; color: var(--gris); margin-left: 14px; }
+  .don .pied, .don .marque { color: rgba(255,255,255,.9); }
+  .don .marque strong { color: #fff; }
+  .don .marque .pastille { width: 84px; height: 84px; background: #fff; border-radius: 18px; padding: 6px; }
+  .don .marque .pastille img { width: 100%; height: 100%; mix-blend-mode: normal; }
+</style>
+</head>
+<body>
+
+<!-- 1 · Couverture -->
+<section class="card couverture" id="c1">
+  <div class="arc"></div>
+  <div class="pad">
+    <div class="logo"><img src="logo.jpg" alt=""></div>
+    <h1>La semaine<br>franco-<br>libanaise</h1>
+    <div class="date">Revue du 11 octobre 2026</div>
+    <ul><li>Cinéma</li><li>France — Liban</li><li>Versailles</li><li>Nabad</li></ul>
+  </div>
+  <div class="pied"><span class="suite">Faites défiler →</span><span class="page" style="color:#fff">1/8</span></div>
+</section>
+
+<!-- 2 · Festival -->
+<section class="card" id="c2">
+  <div class="liseré"></div>
+  <div class="pad">
+    <span class="kicker rouge">Cinéma</span>
+    <h2>Le cinéma libanais à Paris</h2>
+    <p class="corps">Le Festival du Film Libanais de France s'installe à l'Institut du monde arabe et au cinéma Élysées Lincoln.</p>
+    <div class="stats rouge">
+      <div class="stat"><b>13 → 18 oct.</b><span>six jours de projections</span></div>
+      <div class="stat"><b>47 films</b><span>dont 30 courts métrages en compétition</span></div>
+    </div>
+    <p class="source">Source : paris.fr</p>
+  </div>
+  <div class="pied"><div class="marque"><img src="logo.jpg" alt=""><div><strong>REFLEY</strong>Relier, inspirer, agir.</div></div><span class="page">2/8</span></div>
+</section>
+
+<!-- 3 · Nadine Labaki -->
+<section class="card" id="c3">
+  <div class="liseré"></div>
+  <div class="pad">
+    <span class="kicker rouge">Cinéma</span>
+    <h2>Nadine Labaki à l'honneur</h2>
+    <p class="corps">Le festival consacre une rétrospective à son œuvre, en sa présence.</p>
+    <div class="stats rouge">
+      <div class="stat"><b>17 et 18 oct.</b><span>votez pour le prix du public</span></div>
+    </div>
+    <p class="source">Source : lepetitjournal.com</p>
+  </div>
+  <div class="pied"><div class="marque"><img src="logo.jpg" alt=""><div><strong>REFLEY</strong>Relier, inspirer, agir.</div></div><span class="page">3/8</span></div>
+</section>
+
+<!-- 4 · Soutien de la France -->
+<section class="card" id="c4">
+  <div class="liseré"></div>
+  <div class="pad">
+    <span class="kicker bleu">France — Liban</span>
+    <h2>La France aux côtés du Liban</h2>
+    <p class="corps">Le bilan dressé lors d'un colloque à l'Assemblée nationale, le 1<sup>er</sup> octobre.</p>
+    <div class="stats bleu">
+      <div class="stat"><b>17 M€</b><span>d'aide humanitaire française en 2026</span></div>
+      <div class="stat"><b>≈ 100 tonnes</b><span>d'aide médicale livrées depuis mars</span></div>
+    </div>
+    <p class="source">Source : lepetitjournal.com, 6 octobre 2026</p>
+  </div>
+  <div class="pied"><div class="marque"><img src="logo.jpg" alt=""><div><strong>REFLEY</strong>Relier, inspirer, agir.</div></div><span class="page">4/8</span></div>
+</section>
+
+<!-- 5 · Nabatieh -->
+<section class="card" id="c5">
+  <div class="liseré"></div>
+  <div class="pad">
+    <span class="kicker vert">Éducation</span>
+    <h2>L'école reprend à Nabatieh</h2>
+    <p class="corps">Le lycée de Nabatieh rouvrira ses portes après les vacances de la Toussaint, a annoncé l'AEFE.</p>
+    <div class="stats vert">
+      <div class="stat"><b>Toussaint</b><span>le lycée rouvre à la fin des vacances</span></div>
+    </div>
+    <p class="source">Source : lepetitjournal.com, 6 octobre 2026</p>
+  </div>
+  <div class="pied"><div class="marque"><img src="logo.jpg" alt=""><div><strong>REFLEY</strong>Relier, inspirer, agir.</div></div><span class="page">5/8</span></div>
+</section>
+
+<!-- 6 · Soirée de Versailles -->
+<section class="card avecphoto" id="c6">
+  <div class="photo eglise"><img src="eglise.jpg" alt=""><span class="legende">Église Sainte-Jeanne-d'Arc, Versailles</span></div>
+  <div class="pad">
+    <span class="kicker bleu">Mer. 14 oct. · 19 h · Versailles</span>
+    <h2>Prier et se tenir aux côtés du Liban</h2>
+    <p class="corps">Messe en rite maronite à l'église Sainte-Jeanne-d'Arc, puis échange en visio avec Mgr Charbel Abdallah, archevêque de Tyr.</p>
+    <p class="partenaires">Une soirée proposée par MS Liban, jumelage Versailles — Tyr.</p>
+  </div>
+  <div class="pied"><div class="marque"><img src="logo.jpg" alt=""><div><strong>REFLEY</strong>Relier, inspirer, agir.</div></div><span class="page">6/8</span></div>
+</section>
+
+<!-- 7 · Nabad -->
+<section class="card avecphoto" id="c7">
+  <div class="photo"><img src="nabad-cote.jpg" alt=""></div>
+  <div class="pad">
+    <span class="kicker vert">Nabad · un projet REFLEY</span>
+    <h2>Nabad fait route vers le Liban</h2>
+    <p class="corps">Parti de Villepreux le 18 septembre, le bus médicalisé desservira neuf localités du caza de Jezzine.</p>
+    <p class="partenaires">Avec la Ville de Villepreux, la Municipalité d'Azour et l'Hôtel-Dieu de France.</p>
+  </div>
+  <div class="pied"><div class="marque"><img src="logo.jpg" alt=""><div><strong>REFLEY</strong>Relier, inspirer, agir.</div></div><span class="page">7/8</span></div>
+</section>
+
+<!-- 8 · Don -->
+<section class="card don" id="c8">
+  <div class="cadre"><img src="nabad-hayon.jpg" alt=""></div>
+  <div class="pad" style="padding-top:0">
+    <h2>Aidez Nabad à finir son voyage</h2>
+    <p class="corps">Acheminement jusqu'au Liban, dédouanement : chaque don compte.</p>
+    <span class="bouton">refley.fr/don <small>lien en bio</small></span>
+  </div>
+  <div class="pied"><div class="marque"><span class="pastille"><img src="logo.jpg" alt=""></span><div><strong>REFLEY</strong>Une nouvelle à partager ? Écrivez-nous.</div></div><span class="page" style="color:#fff">8/8</span></div>
+</section>
+
+</body>
+</html>
