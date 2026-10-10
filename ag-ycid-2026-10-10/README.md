@@ -25,12 +25,30 @@ photos. Pas de voix off non plus.
 | 3,9 | Carton « Programme CEM — Villepreux · Azour » |
 | 7,3 | `1-trio` — assemblée générale d'YCID |
 | 12,3 | `3-prise-de-parole` — Jean-Baptiste Hamonic présente le programme et sa candidature |
-| 17,7 | `2-selfie` — aux côtés du maire de Villepreux |
+| 17,7 | `2-selfie` — Joe Abi Nader et Jean-Baptiste Hamonic, l'entrée au CA |
 | 22,1 | Les trois chantiers : sentiers, signalétique, jeunesse |
 | 27,3 | « Relier, inspirer, agir. » et les cinq partenaires |
 
 Les cinq partenaires obligatoires de la fiche `projets/cem-azour.md` sont
-cités au carton final, dans l'ordre et en nom complet.
+cités au carton final, dans l'ordre et en nom complet. **YCID y est mis en
+avant** : son rôle est nommé (« Coordination »), sa ligne porte un corps
+plus grand et la couleur d'accent, et le carton du programme précise « un
+programme coordonné par YCID ».
+
+**L'entrée de Jean-Baptiste Hamonic au conseil d'administration** est dite
+positivement, sans rien retirer à ceux qui siégeaient avant lui : « rejoint
+le conseil d'administration d'YCID, dans la continuité de celles et ceux qui
+l'ont fait vivre avant lui », puis « un engagement fort, une belle dynamique
+pour la coopération yvelinoise ». Le renouvellement du CA s'est fait au
+scrutin secret et des sortants n'ont pas été reconduits : la formulation ne
+doit pas se lire comme un remplacement.
+
+**Manque le logo d'YCID.** Il n'est ni dans ce dépôt, ni dans le Drive de
+l'association (qui ne contient que `vpx_logo`, `ley_logo` et `HDF_logo`), et
+`ycid.fr` n'est pas joignable depuis l'environnement de production. En
+attendant, YCID est mis en avant par la typographie et par le kakémono, bien
+lisible sur la photo 1. Déposer `ycid-logo.png` (fond transparent) dans ce
+dossier suffira à l'intégrer au carton final.
 
 **Son** : musique instrumentale générée (ElevenLabs, `eleven_music_v2_5`,
 35 s, ramenée à 32 s) ; l'absence de paroles a été vérifiée en repassant la
