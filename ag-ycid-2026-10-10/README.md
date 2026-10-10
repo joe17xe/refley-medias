@@ -1,19 +1,51 @@
 # Assemblée générale d'YCID — Houdan, 10 octobre 2026
 
-Photos retenues pour le post Facebook REFLEY, dans l'ordre de publication.
+Photos retenues pour le post Facebook REFLEY, dans l'ordre de publication,
+et le film monté à partir d'elles.
 
 | Fichier | Contenu |
 | --- | --- |
 | `1-trio-kakemono-YCID.jpg` | De gauche à droite : Joe Abi Nader (REFLEY), Jean-Marie Tétart (président d'YCID, maire de Houdan), Jean-Baptiste Hamonic (maire de Villepreux). Logo YCID entièrement lisible, écran « Vote n°2 — Renouvellement du CA » visible au fond. |
 | `2-selfie-recadre.jpg` | Jean-Baptiste Hamonic et Joe Abi Nader. **Recadrée** : l'originale montrait deux personnes identifiables assises à l'arrière-plan, hors champ ici (règle 4 de `docs/communication/README.md` du dépôt REFLEYFR — droit à l'image). L'originale n'est pas versée ici, ce dépôt étant public. |
 | `3-prise-de-parole.jpg` | Prise de parole au micro, format vertical — utilisable seule en story. |
+| `4-film-vertical-32s.mp4` | Le film. 1080×1920, 30 i/s, 32 s, H.264 + AAC, 20 Mo, −13,3 LUFS. |
 
 Deux autres clichés du même trio ont été écartés : doublons du premier, avec
 une personne en train de parler.
 
-**Publication** : brouillon Postiz `cmv2w3nr2005ipi8nzjkzi6ho`, canal Facebook,
-en attente de validation du président. Les pièces jointes sont à ajouter à la
-main dans Postiz : l'outil n'accepte que des URL publiques.
+## Le film
+
+Sept plans, montés sur les trois photos ci-dessus. **Aucune image générée,
+aucun visage de synthèse** : le motion design ne sert qu'à relier de vraies
+photos. Pas de voix off non plus.
+
+| s | Plan |
+| --- | --- |
+| 0,0 | Le trait part des Yvelines et rejoint Azour |
+| 3,9 | Carton « Programme CEM — Villepreux · Azour » |
+| 7,3 | `1-trio` — assemblée générale d'YCID |
+| 12,3 | `3-prise-de-parole` — REFLEY présente le programme |
+| 17,7 | `2-selfie` — aux côtés du maire de Villepreux |
+| 22,1 | Les trois chantiers : sentiers, signalétique, jeunesse |
+| 27,3 | « Relier, inspirer, agir. » et les cinq partenaires |
+
+Les cinq partenaires obligatoires de la fiche `projets/cem-azour.md` sont
+cités au carton final, dans l'ordre et en nom complet.
+
+**Son** : musique instrumentale générée (ElevenLabs, `eleven_music_v2_5`,
+35 s, ramenée à 32 s) ; l'absence de paroles a été vérifiée en repassant la
+piste en reconnaissance vocale — transcription vide. La couche d'effets
+(souffle du trait, cloche à l'arrivée sur Azour, raccords, traits des
+pictogrammes) est synthétisée et calée image par image sur le montage.
+
+**Format** : vertical 9:16, pour une story, un reel ou le fil. Une version
+4:5 demanderait une remise en page, pas un recadrage — le texte serait coupé.
+
+**Publication** : la vidéo n'est pas déposée dans Postiz. Elle est destinée
+à une publication directe, le président ayant demandé à la poster lui-même.
+Les deux brouillons du post photo restent `cmv2wkyus005jpi8nlgtz2pyj`
+(Facebook) et `cmv2wl9q6005kpi8nqk4y99yj` (Instagram), en attente de
+validation.
 
 Journal de la session : `docs/communication/journal.md` du dépôt REFLEYFR,
 entrée du 2026-10-10.
