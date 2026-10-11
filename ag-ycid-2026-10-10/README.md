@@ -24,7 +24,7 @@ photos. Pas de voix off non plus.
 | --- | --- |
 | 0,0 | Le trait part des Yvelines et rejoint Azour |
 | 3,2 | Carton « CEM — Clé En Main », Villepreux · Azour, et les huit pastilles de logos |
-| 6,8 | `1-trio` — assemblée générale d'YCID, les trois noms |
+| 6,8 | `1-trio` — assemblée générale d'YCID, les trois noms suivis de « par ordre d'apparition » |
 | 11,3 | `5-photo-de-famille` — « Tout un réseau », balayage sur la foule |
 | 15,3 | `3-prise-de-parole` — Jean-Baptiste Hamonic présente le programme et sa candidature |
 | 20,0 | `2-selfie` — « Un engagement fort, une belle dynamique », logo de Villepreux |
