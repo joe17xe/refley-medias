@@ -23,13 +23,13 @@ photos. Pas de voix off non plus.
 | s | Plan |
 | --- | --- |
 | 0,0 | Le trait part des Yvelines et rejoint Azour |
-| 3,6 | Carton « Programme CEM — Villepreux · Azour » et le bandeau des huit partenaires |
+| 3,2 | Carton « CEM — Clé En Main », Villepreux · Azour, et les huit pastilles de logos |
 | 6,8 | `1-trio` — assemblée générale d'YCID, les trois noms |
 | 11,3 | `5-photo-de-famille` — « Tout un réseau », balayage sur la foule |
 | 15,3 | `3-prise-de-parole` — Jean-Baptiste Hamonic présente le programme et sa candidature |
-| 20,0 | `2-selfie` — « Un engagement fort, une belle dynamique » |
+| 20,0 | `2-selfie` — « Un engagement fort, une belle dynamique », logo de Villepreux |
 | 24,2 | Les trois chantiers : sentiers, signalétique, jeunesse |
-| 28,8 | « Relier, inspirer, agir. », la signature du président, les partenaires — 6,2 s de pose |
+| 28,8 | YCID en tête, les partenaires, puis REFLEY signe — 6,2 s de pose |
 
 La photo de groupe est **balayée** de gauche à droite à 1,5× plutôt que posée
 en bandeau fixe : à 1 080 px de large, un bandeau réduirait soixante visages
@@ -77,6 +77,19 @@ de Jumelage de Jouy-en-Josas, REFLEY.
 **Trois en haut et cinq en bas, pas quatre-quatre** : le logo du
 Département est trois fois plus large que haut, et deux logos aussi larges
 sur la même rangée la font déborder du cadre.
+
+**L'ordre d'arrivée n'est pas celui de la grille.** Villepreux ouvre, REFLEY
+ferme — demande du président, geste vers la commune. La grille, elle, garde
+la hiérarchie institutionnelle : coordinateur et financeurs sur la grande
+rangée. Les deux ordres coexistent sans que l'un trahisse l'autre.
+
+**Le logo de Villepreux reparaît au plan du selfie**, en haut à droite, sur
+le plan qui parle de son maire. C'est là qu'il a un sens, pas seulement au
+générique.
+
+**Le carton final met YCID en tête** — logo, « Coordination », nom complet —
+puis les quatre autres partenaires, puis REFLEY qui signe : devise, nom du
+président, site. L'organisateur d'abord, l'association en signature.
 
 Chaque logo a **sa propre hauteur**. Les caler tous sur la même écraserait
 `departement-yvelines`, trois fois plus large que haut, et noierait
