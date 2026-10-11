@@ -23,7 +23,7 @@ photos. Pas de voix off non plus.
 | s | Plan |
 | --- | --- |
 | 0,0 | Le trait part des Yvelines et rejoint Azour |
-| 3,6 | Carton « Programme CEM — Villepreux · Azour », logo d'YCID |
+| 3,6 | Carton « Programme CEM — Villepreux · Azour » et le bandeau des huit partenaires |
 | 6,8 | `1-trio` — assemblée générale d'YCID, les trois noms |
 | 11,3 | `5-photo-de-famille` — « Tout un réseau », balayage sur la foule |
 | 15,3 | `3-prise-de-parole` — Jean-Baptiste Hamonic présente le programme et sa candidature |
@@ -59,13 +59,28 @@ pour la coopération yvelinoise ». Le renouvellement du CA s'est fait au
 scrutin secret et des sortants n'ont pas été reconduits : la formulation ne
 doit pas se lire comme un remplacement.
 
-**Le logo d'YCID** apparaît deux fois : sous le carton du programme, et au
-carton final, à droite, face au mot REFLEY — une onde dorée l'accueille,
-le même motif que l'arrivée du trait sur Azour au premier plan. Il est posé
-sur une pastille blanche parce qu'il porte du texte noir : sur le fond
-sombre, détouré, il disparaîtrait. Voir `logos/README.md` pour sa
-provenance — il est détouré d'une capture, le fichier maître reste dans le
-Kit de communication de la plateforme.
+### Le bandeau partenaires
+
+Sous le carton du programme, un cartouche **blanc pur** porte les huit
+logos sur deux rangées. Blanc pur et non crème : plusieurs de ces fichiers
+ont un fond blanc opaque et non de la transparence, et sur un crème leur
+rectangle se voyait.
+
+Rangée 1, dans l'ordre de l'en-tête de la fiche `cem-azour.md` : YCID,
+Département des Yvelines, ministère de l'Europe et des Affaires étrangères,
+commune de Villepreux. Rangée 2, les partenaires hors fiche à la suite :
+Municipalité d'Azour, Ville de Jouy-en-Josas, Comité de Jumelage de
+Jouy-en-Josas, REFLEY.
+
+Chaque logo a **sa propre hauteur**. Les caler tous sur la même écraserait
+`departement-yvelines`, trois fois plus large que haut, et noierait
+`jumelage` et `jouy-en-josas`, qui sont des portraits. Les valeurs sont dans
+`scene.html`, cellule par cellule.
+
+Le logo d'YCID reparaît au carton final, à droite, face au mot REFLEY —
+une onde dorée l'accueille, le même motif que l'arrivée du trait sur Azour
+au premier plan. Il y est sur une pastille blanche, pour la même raison que
+le cartouche.
 
 **Son** : musique instrumentale générée (ElevenLabs, `eleven_music_v2_5`,
 35 s, ramenée à 32 s) ; l'absence de paroles a été vérifiée en repassant la
