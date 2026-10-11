@@ -43,12 +43,13 @@ pour la coopération yvelinoise ». Le renouvellement du CA s'est fait au
 scrutin secret et des sortants n'ont pas été reconduits : la formulation ne
 doit pas se lire comme un remplacement.
 
-**Manque le logo d'YCID.** Il n'est ni dans ce dépôt, ni dans le Drive de
-l'association (qui ne contient que `vpx_logo`, `ley_logo` et `HDF_logo`), et
-`ycid.fr` n'est pas joignable depuis l'environnement de production. En
-attendant, YCID est mis en avant par la typographie et par le kakémono, bien
-lisible sur la photo 1. Déposer `ycid-logo.png` (fond transparent) dans ce
-dossier suffira à l'intégrer au carton final.
+**Le logo d'YCID** apparaît deux fois : sous le carton du programme, et au
+carton final, à droite, face au mot REFLEY — une onde dorée l'accueille,
+le même motif que l'arrivée du trait sur Azour au premier plan. Il est posé
+sur une pastille blanche parce qu'il porte du texte noir : sur le fond
+sombre, détouré, il disparaîtrait. Voir `logos/README.md` pour sa
+provenance — il est détouré d'une capture, le fichier maître reste dans le
+Kit de communication de la plateforme.
 
 **Son** : musique instrumentale générée (ElevenLabs, `eleven_music_v2_5`,
 35 s, ramenée à 32 s) ; l'absence de paroles a été vérifiée en repassant la
