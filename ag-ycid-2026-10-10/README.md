@@ -61,16 +61,22 @@ doit pas se lire comme un remplacement.
 
 ### Le bandeau partenaires
 
-Sous le carton du programme, un cartouche **blanc pur** porte les huit
-logos sur deux rangées. Blanc pur et non crème : plusieurs de ces fichiers
-ont un fond blanc opaque et non de la transparence, et sur un crème leur
-rectangle se voyait.
+Sous le carton du programme, **chaque logo sur sa propre pastille
+blanche**, et elles arrivent **une par une**, décalées de 0,11 s, avec un
+grain de son sous chacune. Un seul grand cartouche barrait le cadre ; les
+pastilles laissent le fond du film respirer entre elles. Blanches malgré
+tout : ces fichiers portent du texte noir, posés à même le vert sombre la
+moitié disparaîtrait.
 
-Rangée 1, dans l'ordre de l'en-tête de la fiche `cem-azour.md` : YCID,
-Département des Yvelines, ministère de l'Europe et des Affaires étrangères,
-commune de Villepreux. Rangée 2, les partenaires hors fiche à la suite :
-Municipalité d'Azour, Ville de Jouy-en-Josas, Comité de Jumelage de
-Jouy-en-Josas, REFLEY.
+Rangée 1, grande, les trois premiers de l'en-tête de la fiche
+`cem-azour.md` : YCID, Département des Yvelines, ministère de l'Europe et
+des Affaires étrangères. Rangée 2 : commune de Villepreux, Municipalité
+d'Azour, puis les partenaires hors fiche — Ville de Jouy-en-Josas, Comité
+de Jumelage de Jouy-en-Josas, REFLEY.
+
+**Trois en haut et cinq en bas, pas quatre-quatre** : le logo du
+Département est trois fois plus large que haut, et deux logos aussi larges
+sur la même rangée la font déborder du cadre.
 
 Chaque logo a **sa propre hauteur**. Les caler tous sur la même écraserait
 `departement-yvelines`, trois fois plus large que haut, et noierait
