@@ -88,8 +88,10 @@ le plan qui parle de son maire. C'est là qu'il a un sens, pas seulement au
 générique.
 
 **Le carton final met YCID en tête** — logo, « Coordination », nom complet —
-puis les quatre autres partenaires, puis REFLEY qui signe : devise, nom du
-président, site. L'organisateur d'abord, l'association en signature.
+puis les quatre autres partenaires, puis REFLEY qui signe : devise et site.
+**Sans le nom du président** : il est déjà cité deux fois dans le film, sur
+la photo du trio et sur le plan du selfie. Une troisième au générique était
+une de trop. L'organisateur d'abord, l'association en signature.
 
 Chaque logo a **sa propre hauteur**. Les caler tous sur la même écraserait
 `departement-yvelines`, trois fois plus large que haut, et noierait

@@ -26,9 +26,16 @@ utiliser du **blanc pur**.
 
 ## Règles d'usage
 
-1. **Sur fond sombre, pastille ou cartouche clair.** La plupart de ces logos
-   portent du texte noir : détourés sur un fond foncé, ils disparaissent à
-   moitié.
+1. **Sur fond sombre, pastille ou cartouche clair.** Deux raisons, et
+   `pourquoi-une-pastille.png` les montre côte à côte. D'abord, **six de ces
+   huit fichiers n'ont aucune transparence** : ils portent un rectangle blanc
+   cuit dans l'image. Retirer la pastille ne donne pas un logo détouré, ça
+   donne une boîte blanche à angles vifs, en plus laide. Ensuite, le seul
+   vraiment transparent — YCID — a son texte en noir : posé sur le vert
+   sombre, son anneau devient illisible.
+   **La vraie solution, le jour où on l'aura** : demander aux partenaires
+   leur version monochrome blanche, que la plupart des chartes fournissent,
+   à commencer par celle de l'État. Alors seulement le fond peut disparaître.
 2. **On ne recolore pas, on n'inverse pas, on ne déforme pas** le logo d'un
    partenaire. S'il ne tient pas, on lui donne un fond.
 3. **Ordre d'affichage** : celui de l'en-tête de la fiche projet dans
