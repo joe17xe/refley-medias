@@ -8,7 +8,8 @@ et le film monté à partir d'elles.
 | `1-trio-kakemono-YCID.jpg` | De gauche à droite : Joe Abi Nader (REFLEY), Jean-Marie Tétart (président d'YCID, maire de Houdan), Jean-Baptiste Hamonic (maire de Villepreux). Logo YCID entièrement lisible, écran « Vote n°2 — Renouvellement du CA » visible au fond. |
 | `2-selfie-recadre.jpg` | Jean-Baptiste Hamonic et Joe Abi Nader. **Recadrée** : l'originale montrait deux personnes identifiables assises à l'arrière-plan, hors champ ici (règle 4 de `docs/communication/README.md` du dépôt REFLEYFR — droit à l'image). L'originale n'est pas versée ici, ce dépôt étant public. |
 | `3-prise-de-parole.jpg` | **Jean-Baptiste Hamonic** au micro : il présente le programme et sa candidature au conseil d'administration d'YCID. L'ordre du jour place la présentation des candidats à 17h30, juste avant le scrutin secret. Format vertical — utilisable seule en story. |
-| `4-film-vertical-32s.mp4` | Le film. 1080×1920, 30 i/s, 32 s, H.264 + AAC, 20 Mo, −13,3 LUFS. |
+| `4-film-vertical-35s.mp4` | Le film. 1080×1920, 30 i/s, 35 s, H.264 + AAC, 21 Mo, −13,2 LUFS. |
+| `5-photo-de-famille.jpg` | La photo de famille de l'assemblée, prévue à 17h00 à l'ordre du jour. **Une soixantaine de personnes identifiables** : voir la réserve ci-dessous. |
 
 Deux autres clichés du même trio ont été écartés : doublons du premier, avec
 une personne en train de parler.
@@ -22,12 +23,27 @@ photos. Pas de voix off non plus.
 | s | Plan |
 | --- | --- |
 | 0,0 | Le trait part des Yvelines et rejoint Azour |
-| 3,9 | Carton « Programme CEM — Villepreux · Azour » |
-| 7,3 | `1-trio` — assemblée générale d'YCID |
-| 12,3 | `3-prise-de-parole` — Jean-Baptiste Hamonic présente le programme et sa candidature |
-| 17,7 | `2-selfie` — Joe Abi Nader et Jean-Baptiste Hamonic, l'entrée au CA |
-| 22,1 | Les trois chantiers : sentiers, signalétique, jeunesse |
-| 27,3 | « Relier, inspirer, agir. » et les cinq partenaires |
+| 3,6 | Carton « Programme CEM — Villepreux · Azour », logo d'YCID |
+| 6,8 | `1-trio` — assemblée générale d'YCID, les trois noms |
+| 11,3 | `5-photo-de-famille` — « Tout un réseau », balayage sur la foule |
+| 15,3 | `3-prise-de-parole` — Jean-Baptiste Hamonic présente le programme et sa candidature |
+| 20,0 | `2-selfie` — « Un engagement fort, une belle dynamique » |
+| 24,2 | Les trois chantiers : sentiers, signalétique, jeunesse |
+| 28,8 | « Relier, inspirer, agir. », la signature du président, les partenaires — 6,2 s de pose |
+
+La photo de groupe est **balayée** de gauche à droite à 1,5× plutôt que posée
+en bandeau fixe : à 1 080 px de large, un bandeau réduirait soixante visages
+à des têtes d'épingle.
+
+### Réserve sur la photo de famille
+
+Elle montre une soixantaine de personnes identifiables. La règle 4 du guide
+REFLEY demande une autorisation écrite. Ici, la photo était **inscrite à
+l'ordre du jour de la convocation** (« Photo de famille », 17h00) et les
+participants ont posé pour elle : le consentement est d'usage, pas écrit.
+Ce sont en outre les membres d'YCID, pas ceux de REFLEY. **Un accord d'YCID
+avant publication est la prudence minimale** — c'est leur assemblée et leurs
+adhérents.
 
 Les cinq partenaires obligatoires de la fiche `projets/cem-azour.md` sont
 cités au carton final, dans l'ordre et en nom complet. **YCID y est mis en
