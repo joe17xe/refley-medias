@@ -16,3 +16,11 @@ Instagram (compte REFLEY) dans l'ordre des numéros.
 
 Les sources HTML et les scripts de rendu sont dans la session de fabrication ;
 la méthode suit la compétence `live-carousel`.
+
+## Version Reel et Facebook
+
+`nabad-reel.mp4` : 1080×1920, 48 s. Les sept slides enchaînées (la 1, la 6 et
+la 7 jouées deux fois pour laisser le temps de lire), sans compteur ni
+« Glissez ». Le contenu est remonté pour rester hors de l'interface des Reels.
+Sert de Reel Instagram et de vidéo Facebook : une publication Facebook
+n'accepte qu'une seule vidéo, pas de carrousel.
