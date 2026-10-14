@@ -1,7 +1,8 @@
 # Nabad — carrousel vivant (14 octobre 2026)
 
 Sept vidéos de 1080×1350, 30 i/s, en boucle parfaite de 4 ou 6 s, chacune
-avec son propre son (battement de cœur à 120 BPM, −14 LUFS). Publiées sur
+avec son propre son : battement de cœur et bip de moniteur seuls, sans nappe
+ni souffle de fond (retirés le 14/10, jugés dérangeants), −14 LUFS. Publiées sur
 Instagram (compte REFLEY) dans l'ordre des numéros.
 
 | Slide | Message | Source |
