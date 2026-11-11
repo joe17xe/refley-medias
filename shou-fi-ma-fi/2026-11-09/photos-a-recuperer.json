@@ -91,5 +91,19 @@
         "https://ghassanyammine-paris2026.fr/wp-content/uploads/2026/05/Ghassan-Yammine%E2%80%8B-1024x914.jpg"
       ]
     }
+  ],
+  "sons": [
+    {
+      "nom": "voix-recital.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/584566efffcd45578b71023702ead007/content_generation/gaTjJviI8CcjkVMjkD8c/SVO6MX4zWJk9GobrGM6S/content.mp3?Expires=1794394800&KeyName=assets-cdn-key-1&Signature=AbCEdPVl6GFCpf3CsU3uWvxlnOI="
+    },
+    {
+      "nom": "fond-oud.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/584566efffcd45578b71023702ead007/content_generation/3doo5r3rvVs4mZlucneC/w06gHsSOMI6qUupQPUsf/content.mp3?Expires=1794394800&KeyName=assets-cdn-key-1&Signature=UMrzQsix5eFXkzQAsFY2so1mnV0="
+    },
+    {
+      "nom": "voix-prise-1.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/584566efffcd45578b71023702ead007/content_generation/KD5iRJLjxqmjggYXyzO1/8BGkpoOJqoID1C5IEcEW/content.mp3?Expires=1794394800&KeyName=assets-cdn-key-1&Signature=6rgVSiwzgnJvWeIDn-ZhBLZa2sk="
+    }
   ]
 }

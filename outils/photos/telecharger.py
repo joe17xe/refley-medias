@@ -16,11 +16,21 @@ AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) 
 LARGEUR_MAX = 1600
 
 
-def recuperer(url: str) -> Image.Image | None:
-    req = urllib.request.Request(url, headers={"User-Agent": AGENT, "Accept": "image/avif,image/webp,image/*,*/*"})
+def telecharger(url: str) -> bytes | None:
+    req = urllib.request.Request(url, headers={"User-Agent": AGENT, "Accept": "*/*"})
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            data = r.read()
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return r.read()
+    except Exception as e:  # une adresse morte ne doit pas arrêter les autres
+        print(f"  échec {url[:90]} : {e}")
+        return None
+
+
+def recuperer(url: str) -> Image.Image | None:
+    data = telecharger(url)
+    if data is None:
+        return None
+    try:
         img = Image.open(io.BytesIO(data))
         img.load()
         return img
@@ -34,7 +44,17 @@ def main(demande: Path) -> int:
     dossier = demande.parent / "photos"
     dossier.mkdir(exist_ok=True)
     rapport = []
-    for photo in spec["photos"]:
+    # Sons (voix off, fonds musicaux d'ElevenLabs) : recopiés tels quels.
+    for son in spec.get("sons", []):
+        print(son["nom"])
+        data = telecharger(son["url"])
+        if data:
+            (demande.parent / "sons").mkdir(exist_ok=True)
+            (demande.parent / "sons" / son["nom"]).write_bytes(data)
+            rapport.append({"son": son["nom"], "ok": True, "octets": len(data)})
+        else:
+            rapport.append({"son": son["nom"], "ok": False})
+    for photo in spec.get("photos", []):
         cle = photo["cle"]
         print(cle)
         meilleure, source = None, None
