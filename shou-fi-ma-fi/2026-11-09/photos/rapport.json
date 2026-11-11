@@ -1,5 +1,20 @@
 [
   {
+    "son": "voix-recital.mp3",
+    "ok": true,
+    "octets": 215281
+  },
+  {
+    "son": "fond-oud.mp3",
+    "ok": true,
+    "octets": 1938706
+  },
+  {
+    "son": "voix-prise-1.mp3",
+    "ok": true,
+    "octets": 1172826
+  },
+  {
     "cle": "rim-murr-theatre-tour-eiffel-2026-11-12",
     "ok": true,
     "source": "https://75.agendaculturel.fr/media/ecKokPUZdmDjOE2ov69VJw/storage/2026/6adb9b19b12f1.webp/fit=cover,w=1080,h=1350,f=auto,g=auto",
