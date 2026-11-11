@@ -1,7 +1,127 @@
 [
   {
-    "son": "voix-couronnee.mp3",
+    "son": "voix-recital.mp3",
     "ok": true,
-    "octets": 288424
+    "octets": 215281
+  },
+  {
+    "son": "fond-oud.mp3",
+    "ok": true,
+    "octets": 1938706
+  },
+  {
+    "son": "voix-prise-1.mp3",
+    "ok": true,
+    "octets": 1172826
+  },
+  {
+    "cle": "rim-murr-theatre-tour-eiffel-2026-11-12",
+    "ok": true,
+    "source": "https://75.agendaculturel.fr/media/ecKokPUZdmDjOE2ov69VJw/storage/2026/6adb9b19b12f1.webp/fit=cover,w=1080,h=1350,f=auto,g=auto",
+    "taille": [
+      1080,
+      1350
+    ],
+    "credit": "Photo : Agenda culturel"
+  },
+  {
+    "cle": "raphael-abdelnour-le-solo-2026",
+    "ok": true,
+    "source": "https://75.agendaculturel.fr/media/ecKokPUZdmDjOE2ov69VJw/storage/2026/6adb9a9304307.webp/f=auto",
+    "taille": [
+      933,
+      1400
+    ],
+    "credit": "Photo : Agenda culturel"
+  },
+  {
+    "cle": "escale-au-liban-jouy-en-josas-2026-11-14",
+    "ok": true,
+    "source": "https://www.jouy-en-josas.fr/iso_upload/comite_jumelage_liban_site.jpg",
+    "taille": [
+      724,
+      1024
+    ],
+    "credit": "Photo : Comité de jumelage de Jouy-en-Josas"
+  },
+  {
+    "cle": "walid-raad-centquatre-2026",
+    "ok": true,
+    "source": "https://www.104.fr/assets/q80-w1500-h1200/0f95ed34/104_40x60_walid_flash_bd.jpg.webp",
+    "taille": [
+      1500,
+      1200
+    ],
+    "credit": "© Walid Raad · Centquatre"
+  },
+  {
+    "cle": "walid-raad-centquatre-2026-salle",
+    "ok": true,
+    "source": "https://www.104.fr/assets/q80-w2500-h1668/77073aba/centquatre_walid_raad_c_quentin_chevrier_2.jpg.webp",
+    "taille": [
+      1600,
+      1068
+    ],
+    "credit": "Centquatre, photo Quentin Chevrier"
+  },
+  {
+    "cle": "serge-najjar-galerie-lahumiere-2026",
+    "ok": true,
+    "source": "https://www.arts-in-the-city.com/wp-content/uploads/2026/09/une_serge-najjar-a-l-instant-t-lahumiere.jpg",
+    "taille": [
+      1600,
+      900
+    ],
+    "credit": "Serge Najjar / Galerie Lahumière"
+  },
+  {
+    "cle": "ali-cherri-today-is-ok-palais-de-tokyo-2026",
+    "ok": true,
+    "source": "https://admin.palaisdetokyo.com/wp-content/uploads/2026/07/LaSentinelle_PdT_Site.png",
+    "taille": [
+      1600,
+      1600
+    ],
+    "credit": "Ali Cherri · Palais de Tokyo"
+  },
+  {
+    "cle": "simone-fattal-mam-2026",
+    "ok": true,
+    "source": "https://cdn.paris.fr/qfapv4/2026/08/18/huge-00e7f9ccb670b6f1c546fa46404f986e.jpg",
+    "taille": [
+      1200,
+      750
+    ],
+    "credit": "Photo François Doury © Adagp, Paris, 2026"
+  },
+  {
+    "cle": "hommage-melhem-barakat-mechwar-2026-11-20",
+    "ok": true,
+    "source": "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvYWJhNTQxNWM0ZmM4NDI5N2RhM2JlZjQ3NTZiODkyZTA3NzNlYzY2ZWM5NjI1MjI5LmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjEyODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
+    "taille": [
+      1280,
+      1593
+    ],
+    "credit": "Photo : Agenda culturel"
+  },
+  {
+    "cle": "hiba-tawaji-ibrahim-maalouf-saint-cyr-2026-11-21",
+    "ok": true,
+    "source": "https://www.saintcyr78.fr/wp-content/uploads/2026/06/affiche-indiv-6-scaled.jpg",
+    "taille": [
+      1600,
+      2263
+    ],
+    "credit": "Affiche : Ville de Saint-Cyr-l'École"
+  },
+  {
+    "cle": "ghassan-yammine-gaveau-2026-11-22",
+    "ok": true,
+    "source": "https://ghassanyammine-paris2026.fr/wp-content/uploads/2026/05/Ghassan-Yammine%E2%80%8B.jpg",
+    "taille": [
+      1344,
+      1199
+    ],
+    "credit": "Photo : ghassanyammine-paris2026.fr"
   }
 ]
