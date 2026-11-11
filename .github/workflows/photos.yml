@@ -1,0 +1,36 @@
+# Récupère les photos publiques d'une édition (« Shou fi ma fi ? », revues…)
+# dès qu'une branche photos/** pousse un fichier photos-a-recuperer.json.
+# Les photos sont remises sur la même branche : rien n'arrive sur main sans PR.
+name: Photos à récupérer
+
+on:
+  push:
+    branches: ["photos/**"]
+    paths: ["**/photos-a-recuperer.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recuperer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pillow
+      - name: Télécharger et ranger
+        run: |
+          for f in $(git ls-files '**/photos-a-recuperer.json'); do
+            echo "== $f"; python outils/photos/telecharger.py "$f"
+          done
+      - name: Remettre sur la branche
+        run: |
+          git config user.name "refley-photos[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- ':(glob)**/photos/**' ':(glob)**/sons/**'
+          git diff --cached --quiet && { echo "rien de neuf"; exit 0; }
+          git commit -m "Photos récupérées pour ${GITHUB_REF_NAME}"
+          git push
