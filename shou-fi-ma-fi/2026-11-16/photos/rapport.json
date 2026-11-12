@@ -1,0 +1,52 @@
+[
+  {
+    "cle": "ziryab-fait-salon-mairie-7e-2026-11-18",
+    "ok": true,
+    "source": "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvNmVlNDU0OGU4MWY0NzZiZjNkMTc3OTk5YWYxZTUyN2UzMGQ1YmRmZWUxZTdjODM0LmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjEyODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
+    "taille": [
+      1206,
+      1333
+    ],
+    "credit": "Visuel : Prix Ziryab · Agenda culturel"
+  },
+  {
+    "cle": "alexandre-najjar-un-libanais-a-paris-ima-2026-11-21",
+    "ok": true,
+    "source": "https://www.imarabe.org/sites/default/files/styles/landscape_big/public/2026-10/alexandre-najjar.jpg?h=ad1ee9e0",
+    "taille": [
+      1440,
+      600
+    ],
+    "credit": "Visuel : Institut du monde arabe"
+  },
+  {
+    "cle": "alexandre-najjar-livre",
+    "ok": true,
+    "source": "https://www.imarabe.org/sites/default/files/styles/portrait_widget/public/2026-10/un-libanais-a-c-paris.jpg",
+    "taille": [
+      688,
+      1002
+    ],
+    "credit": "Visuel : Institut du monde arabe"
+  },
+  {
+    "cle": "intemporelles-de-l-orient-auditorium-saint-germain-2026-11-21",
+    "ok": true,
+    "source": "https://d3o5dv0vi6tsf9.cloudfront.net/Cx7fyKdyQfHcDmG/billetterie/oMRgvmzygycomiX-zkke",
+    "taille": [
+      1414,
+      2000
+    ],
+    "credit": "Visuel : NABDA · billetteries.fr"
+  },
+  {
+    "cle": "3a-ka3ba-apollo-theatre-2026-11-24",
+    "ok": true,
+    "source": "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvODUxZjE3ZjBkOTIxYTM0ZmExNjM0ZDUxZGMwN2FjZmU0ODI4NjBkMTAwNDkwYzAwLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjEyODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
+    "taille": [
+      1206,
+      1599
+    ],
+    "credit": "Visuel : Mechwar · Agenda culturel"
+  }
+]
