@@ -1,0 +1,53 @@
+{
+  "edition": "2026-11-19",
+  "sons": [
+    {
+      "nom": "voix-1-weekend.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/ADqWVHt2mA1JImLUMept/vin939w6T83lJp4RAEFU/content.mp3?Expires=1795057200&KeyName=assets-cdn-key-1&Signature=IAPLx6pLPr4p__NHZF6Rd0s-Z7Q="
+    },
+    {
+      "nom": "voix-2-suivante-ima.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/hsLLUowjkuwxcjYjqQvw/liHVwCQ5X4y8M26SUiFw/content.mp3?Expires=1795057200&KeyName=assets-cdn-key-1&Signature=GV4CLHvzpw344GTZm3XB2rk34Tw="
+    },
+    {
+      "nom": "voix-3-expos-nabad.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/k9Aqeogf2dqUxthZimS1/JxP77Ie4DM2fJAHfxY4r/content.mp3?Expires=1795057200&KeyName=assets-cdn-key-1&Signature=VyJ4IMkK5Nlh6_aiRBgfBF64b0k="
+    },
+    {
+      "nom": "voix-4-couronnee.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/Z2aCH5Hiwfv2uAt3C9Ua/h06J2fpRrTStK4Z0rRYE/content.mp3?Expires=1795057200&KeyName=assets-cdn-key-1&Signature=VTW8sGSNHMLFYqf9se2HlK6PXP8="
+    }
+  ],
+  "photos": [
+    {
+      "cle": "wael-jassar-casino-de-paris-2026-11-29",
+      "credit": "Visuel : Casino de Paris",
+      "urls": [
+        "https://www.casinodeparis.fr/sites/hubber_site_casinodeparis8/files/2026-09/0ff137bb-7a22-4c77-abb8-7383c8ed0fa9-copie.jpg",
+        "https://www.casinodeparis.fr/sites/hubber_site_casinodeparis8/files/styles/adaptive_picture_mobile/public/2026-09/444f7bbf-e2d1-41a5-9e5a-97780c99a257.jpg?itok=SrcaWpBt"
+      ]
+    },
+    {
+      "cle": "charbel-rouhana-quintet-ima-2026-12-02",
+      "credit": "Institut du monde arabe · photo Farid Assaf",
+      "urls": [
+        "https://www.imarabe.org/sites/default/files/styles/landscape_big/public/2026-10/charbel-rouhana-4_photo-farid-assaf.jpg?h=2c0aab73"
+      ]
+    },
+    {
+      "cle": "dedicace-ziad-rahbani-ima-2026-12-01",
+      "credit": "Institut du monde arabe · photo Tony Karam",
+      "urls": [
+        "https://www.imarabe.org/sites/default/files/styles/landscape_big/public/2026-10/ziad-rahbani-toufic-farroukh_buc-1991_photo-tony-karam.jpg?h=c7245158",
+        "https://www.imarabe.org/sites/default/files/styles/portrait_widget/public/2026-10/ziad-rahbani-toufic-farroukh_buc-1991_photo-tony-karam.jpg"
+      ]
+    },
+    {
+      "cle": "fadia-ahmad-echos-de-beyrouth-2026-11-20",
+      "credit": "Visuel : Agenda culturel",
+      "urls": [
+        "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvOTA4NzkzZGI2MGNjNzE0ZDY5NDVmZTMzMTgxOGY0NzkxMjkyMjEyMTBjOGU1YjUxLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjEyODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ=="
+      ]
+    }
+  ]
+}
