@@ -1,0 +1,62 @@
+[
+  {
+    "son": "voix-1-weekend.mp3",
+    "ok": true,
+    "octets": 609417
+  },
+  {
+    "son": "voix-2-suivante-ima.mp3",
+    "ok": true,
+    "octets": 535438
+  },
+  {
+    "son": "voix-3-expos-nabad.mp3",
+    "ok": true,
+    "octets": 489044
+  },
+  {
+    "son": "voix-4-couronnee.mp3",
+    "ok": true,
+    "octets": 297201
+  },
+  {
+    "cle": "wael-jassar-casino-de-paris-2026-11-29",
+    "ok": true,
+    "source": "https://www.casinodeparis.fr/sites/hubber_site_casinodeparis8/files/2026-09/0ff137bb-7a22-4c77-abb8-7383c8ed0fa9-copie.jpg",
+    "taille": [
+      1600,
+      579
+    ],
+    "credit": "Visuel : Casino de Paris"
+  },
+  {
+    "cle": "charbel-rouhana-quintet-ima-2026-12-02",
+    "ok": true,
+    "source": "https://www.imarabe.org/sites/default/files/styles/landscape_big/public/2026-10/charbel-rouhana-4_photo-farid-assaf.jpg?h=2c0aab73",
+    "taille": [
+      1440,
+      600
+    ],
+    "credit": "Institut du monde arabe · photo Farid Assaf"
+  },
+  {
+    "cle": "dedicace-ziad-rahbani-ima-2026-12-01",
+    "ok": true,
+    "source": "https://www.imarabe.org/sites/default/files/styles/landscape_big/public/2026-10/ziad-rahbani-toufic-farroukh_buc-1991_photo-tony-karam.jpg?h=c7245158",
+    "taille": [
+      1440,
+      600
+    ],
+    "credit": "Institut du monde arabe · photo Tony Karam"
+  },
+  {
+    "cle": "fadia-ahmad-echos-de-beyrouth-2026-11-20",
+    "ok": true,
+    "source": "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvOTA4NzkzZGI2MGNjNzE0ZDY5NDVmZTMzMTgxOGY0NzkxMjkyMjEyMTBjOGU1YjUxLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjEyODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
+    "taille": [
+      905,
+      1280
+    ],
+    "credit": "Visuel : Agenda culturel"
+  }
+]

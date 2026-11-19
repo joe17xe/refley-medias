@@ -1,18 +1,15 @@
 [
   {
     "son": "voix-recital.mp3",
-    "ok": true,
-    "octets": 215281
+    "ok": false
   },
   {
     "son": "fond-oud.mp3",
-    "ok": true,
-    "octets": 1938706
+    "ok": false
   },
   {
     "son": "voix-prise-1.mp3",
-    "ok": true,
-    "octets": 1172826
+    "ok": false
   },
   {
     "cle": "rim-murr-theatre-tour-eiffel-2026-11-12",
