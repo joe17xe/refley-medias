@@ -1,28 +1,13 @@
 [
   {
-    "son": "voix-1-weekend.mp3",
+    "son": "voix-1b-jawa-en-tete.mp3",
     "ok": true,
     "octets": 421335
   },
   {
-    "son": "voix-2-weekend-ima.mp3",
+    "son": "voix-6-reveillon.mp3",
     "ok": true,
-    "octets": 526243
-  },
-  {
-    "son": "voix-3-nour-expos.mp3",
-    "ok": true,
-    "octets": 508271
-  },
-  {
-    "son": "voix-4-nabad.mp3",
-    "ok": true,
-    "octets": 212773
-  },
-  {
-    "son": "voix-5-nouvel-an.mp3",
-    "ok": true,
-    "octets": 179337
+    "octets": 102850
   },
   {
     "cle": "liban-mon-amour-jeu-de-paume-vizille-2026-11-27",
@@ -43,16 +28,6 @@
       560
     ],
     "credit": "Visuel : Live Love Marseille · Agenda culturel"
-  },
-  {
-    "cle": "serment-d-europe-mouawad-tnb-rennes-2026",
-    "ok": true,
-    "source": "https://unidivers.fr/wp-content/uploads/2026/07/le-serment-deurope-wajdi-mouawad-theatre-national-de-bretagne-rennes-2026-11-17t2000000100.jpg",
-    "taille": [
-      700,
-      466
-    ],
-    "credit": "Visuel : Théâtre National de Bretagne · Unidivers"
   },
   {
     "cle": "musicales-du-liban-nour-temple-saint-esprit-2026-12-05",
