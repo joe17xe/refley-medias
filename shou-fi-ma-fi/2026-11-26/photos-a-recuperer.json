@@ -2,24 +2,12 @@
   "edition": "2026-11-26",
   "sons": [
     {
-      "nom": "voix-1-weekend.mp3",
-      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/pG7KX25IxLInTO2LFaxc/vtTKGVXNsXctKMSkWv1o/content.mp3?Expires=1795654800&KeyName=assets-cdn-key-1&Signature=HX5KicTcqq6uBxxdaWNy2fs-11s="
+      "nom": "voix-1b-jawa-en-tete.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/vJqUujkexxocUCSUuypD/6RFmYkmegfYJo3O0KL9v/content.mp3?Expires=1795658400&KeyName=assets-cdn-key-1&Signature=exFgufshtMe_AGlFQycTCPb6LD8="
     },
     {
-      "nom": "voix-2-weekend-ima.mp3",
-      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/6ktSZzWMAp5u1soGPsWB/V4JGAQc2BhWxl7Dj6pfR/content.mp3?Expires=1795654800&KeyName=assets-cdn-key-1&Signature=T-xvkpkcIH8wqyq93oaLhlbN_Z0="
-    },
-    {
-      "nom": "voix-3-nour-expos.mp3",
-      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/AoMgLVAYkS43AxOuo81d/jQZDLcU3ZrylT5BCDGE1/content.mp3?Expires=1795654800&KeyName=assets-cdn-key-1&Signature=OVgSL7R6RpgAhQEBxTcVqQy7v1c="
-    },
-    {
-      "nom": "voix-4-nabad.mp3",
-      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/MMBIyHedvvizLq5bNULr/wYMESOSkHAgjuvWehaS2/content.mp3?Expires=1795654800&KeyName=assets-cdn-key-1&Signature=56UdJKbLB-32_RzzULltJTO2Jyo="
-    },
-    {
-      "nom": "voix-5-nouvel-an.mp3",
-      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/3NYpyaeUENMwriETlrip/kQ27Ky8bZvJ9PTPpZVbS/content.mp3?Expires=1795654800&KeyName=assets-cdn-key-1&Signature=VYaxTayKkEfeNfLaHyUTkV_jdHY="
+      "nom": "voix-6-reveillon.mp3",
+      "url": "https://elevenlabsusercontent.com/database/workspace/09d289cd10274f25ad7afd7288008bea/content_generation/RjuGUvn30VmeMqORDNMW/FqTRyXXOjWYgzBLTYu55/content.mp3?Expires=1795658400&KeyName=assets-cdn-key-1&Signature=X4X5vxpaDk2lCDSdnu3vAjRdhsk="
     }
   ],
   "photos": [
@@ -39,13 +27,6 @@
       "urls": [
         "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvZjg4YzIyNDk1NWM2OTEwY2EzZTU0ZGVhZjE1ZDZlMTBkM2RjYWRkMzlhZDQ4Mjg2LmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
         "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvZjg4YzIyNDk1NWM2OTEwY2EzZTU0ZGVhZjE1ZDZlMTBkM2RjYWRkMzlhZDQ4Mjg2LmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjEyODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ=="
-      ]
-    },
-    {
-      "cle": "serment-d-europe-mouawad-tnb-rennes-2026",
-      "credit": "Visuel : Théâtre National de Bretagne · Unidivers",
-      "urls": [
-        "https://unidivers.fr/wp-content/uploads/2026/07/le-serment-deurope-wajdi-mouawad-theatre-national-de-bretagne-rennes-2026-11-17t2000000100.jpg"
       ]
     },
     {
