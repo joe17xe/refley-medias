@@ -1,23 +1,19 @@
 [
   {
     "son": "voix-1-weekend.mp3",
-    "ok": true,
-    "octets": 609417
+    "ok": false
   },
   {
     "son": "voix-2-suivante-ima.mp3",
-    "ok": true,
-    "octets": 535438
+    "ok": false
   },
   {
     "son": "voix-3-expos-nabad.mp3",
-    "ok": true,
-    "octets": 489044
+    "ok": false
   },
   {
     "son": "voix-4-couronnee.mp3",
-    "ok": true,
-    "octets": 297201
+    "ok": false
   },
   {
     "cle": "wael-jassar-casino-de-paris-2026-11-29",
