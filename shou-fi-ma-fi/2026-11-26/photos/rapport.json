@@ -1,13 +1,11 @@
 [
   {
     "son": "voix-1b-jawa-en-tete.mp3",
-    "ok": true,
-    "octets": 421335
+    "ok": false
   },
   {
     "son": "voix-6-reveillon.mp3",
-    "ok": true,
-    "octets": 102850
+    "ok": false
   },
   {
     "cle": "liban-mon-amour-jeu-de-paume-vizille-2026-11-27",
